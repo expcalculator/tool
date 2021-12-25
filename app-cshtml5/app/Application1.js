@@ -992,7 +992,7 @@ JSIL.DeclareNamespace("Application1");
     if (flag6) {
       num4 = ((num4 + 1) | 0);
     }
-    (this.AResultWindow)['set_Content'](($T0E()['Format']("\ubaa8\ud5d8\uac00\uc758 \uc77c\uae30\ub294 {0}\uac1c \ud544\uc694\ud558\uba70\n", num10) + "\"" + (this.MainPage$Items$value)['get_Item'](num4).CItem$Option$value + "\"\ubd80\ud130\n\uc2dc\ub098\ub9ac\uc624\ub97c \uc2dc\uc791\ud574\uc57c \ubaa9\ud45c\ub808\ubca8\uc5d0 \ub3c4\ub2ec\ud569\ub2c8\ub2e4"));
+    (this.AResultWindow)['set_Content'](($T0E()['Format']("\ubaa8\ud5d8\uac00\uc758 \uc77c\uae30\ub294 {0}\uac1c \ud544\uc694\ud558\uba70\n", num10) + "\"" + (this.MainPage$Items$value)['get_Item'](num4+1).CItem$Option$value + "\"\ubd80\ud130\n\uc2dc\ub098\ub9ac\uc624\ub97c \uc2dc\uc791\ud574\uc57c \ubaa9\ud45c\ub808\ubca8\uc5d0 \ub3c4\ub2ec\ud569\ub2c8\ub2e4"));
   };
 
   function MainPage_BConfirm (sender, e, $exception) {
