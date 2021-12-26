@@ -1,136 +1,27 @@
-Starting fastman92 limit adjuster 6.0, compilation time: Mar 26 2021 04:55:53 (UTC)
+Starting fastman92 limit adjuster 5.0, compilation time: Feb  9 2020 19:44:28 (UTC)
 Website: http://fastman92.com
 
-Launch time: 26-12-2021 5:08:55 (UTC), 14:08 (local)
+Launch time: 26-12-2021 5:46:26 (UTC)
 Launched during the day.
 
 Solution platform: ANDROID_ARM32
 Game detected: GTA SA 2.00
 Game uses dynamic image base? Yes
 Game preferred image base: 0x0
-Game current image base: 0xC4100000
+Game current image base: 0xC5E97000
 
-Number of FLA modules: 70
 Delayed processing of limits? Yes
 
 Package name: com.rockstargames.gtasa
 Root base directory: /storage/emulated/0
 Root directory: /storage/emulated/0/Android/data/com.rockstargames.gtasa/files/
 Initial directory: /
-Cache directory: /data/user/0/com.rockstargames.gtasa/cache
 INI filename: fastman92limitAdjuster_GTASA.ini
 
-Global exception handler has been registered.
 ---------------------------------------------
 ---------------------------------------------
-SPECIAL: Alter file loading order enabled.
 ---------------------------------------------
-SPECIAL: Remove LOD DFF requirement to hold native data enabled.
----------------------------------------------
-SPECIAL: Fix HAL crashing on devices with Android 11 and higher enabled.
----------------------------------------------
----------------------------------------------
-Trying to load CLEO: /data/app/com.rockstargames.gtasa-80OxU0m9ATQI6Wn4UyXqpg==/lib/arm/libcleo.so
+Trying to load CLEO: /data/app/com.rockstargames.gtasa-8Cbk_gpZAaVmHHlk1PgtYw==/lib/arm/libcleo.so
 CLEO loaded
-Number of memory changes made: 20
+Number of memory changes made: 8
 ---------------------------------------------
-
-Application has crashed, here's a log:
-Current process ID: 13318
-Current thread ID: 29456
-Exception address: 0x000000E7 (module not found)
-Exception signal: 11 (SIGSEGV)
-Exception code: 0x1 (SEGV_MAPERR)
-
-General registers:
-R0 : 0x00000000 (0)
-R1 : 0x00000360 (864)
-R2 : 0x00000000 (0)
-R3 : 0x00000002 (2)
-R4 : 0xC4911E10 (-997122544)
-R5 : 0xC11FA860 (-1054889888)
-R6 : 0x00000000 (0)
-R7 : 0xBE48DC58 (-1102521256)
-R8 : 0xC11FA860 (-1054889888)
-R9 : 0xC4AECCF6 (-995177226)
-R10: 0x00000000 (0)
-R11: 0xC48BD794 (-997468268)
-R12: 0xC4771480 (-998828928)
-SP : 0xBE48DC38 (-1102521288)
-LR : 0xC458C245 (-1000816059)
-PC : 0xC458B656 (-1000819114) ["libGTASA.so"+0x48B656]
-PSR : 0x800F0030 (-2146500560)
-
-Stack (printing from 0xBE48DC38):
-+0x000  51 A1 CB 13  60 A8 1F C1  F6 CC AE C4  00 00 00 00
-+0x010  94 D7 8B C4  00 00 00 00  60 A8 1F C1  00 00 00 00
-+0x020  A8 DC 48 BE  45 C2 58 C4  F5 CC AE C4  F6 CC AE C4
-+0x030  FC CC AE C4  5C 2D 7B C4  94 21 91 C4  CC 03 91 C4
-+0x040  08 7D 90 C4  44 F6 8F C4  51 A1 CB 13  8C D6 8B C4
-+0x050  51 A1 CB 13  50 23 BB C3  00 00 00 00  00 00 00 00
-+0x060  04 CD AE C4  00 00 00 00  0C 50 BB C3  8C B2 8B C4
-+0x070  8C D7 8B C4  25 55 BA C3  00 00 00 00  01 00 00 00
-+0x080  04 CD AE C4  A0 DE 48 BE  FC C3 AF C4  20 01 7B C4
-+0x090  00 00 00 00  99 26 58 C4  01 00 00 00  00 00 00 00
-+0x0A0  C3 28 77 14  53 00 4D 00  4F 00 4B 00  45 00 5F 00
-+0x0B0  34 00 00 00  3C DE 48 BE  02 00 00 00  0F 5A 39 C7
-+0x0C0  51 A1 CB 13  00 00 00 00  3C DD 48 BE  C0 71 DB F0
-+0x0D0  A0 DD 00 00  0F 5A 39 C7  20 0F F4 17  34 DE 48 BE
-+0x0E0  E4 DD 48 BE  55 28 60 ED  00 00 00 00  00 00 00 00
-+0x0F0  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
-+0x100  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
-+0x110  4C DD 48 BE  51 A1 CB 13  1C 01 7E C4  E8 DE 48 BE
-+0x120  00 00 00 00  00 00 00 00  00 00 00 00  BC F0 BB B6
-+0x130  78 DD 48 BE  E7 6B 6E C4  80 DD 48 BE  51 A1 CB 13
-
-base: 0xBE393000   top: 0xBE48DC38   bottom: 0xBE491000
-
-Application has crashed, here's a log:
-Current process ID: 13318
-Current thread ID: 29398
-Exception address: 0x000000E7 (module not found)
-Exception signal: 11 (SIGSEGV)
-Exception code: 0x1 (SEGV_MAPERR)
-
-General registers:
-R0 : 0x00000000 (0)
-R1 : 0x00000360 (864)
-R2 : 0x00000000 (0)
-R3 : 0x00000002 (2)
-R4 : 0xC4911E10 (-997122544)
-R5 : 0xC11FA058 (-1054891944)
-R6 : 0x00000000 (0)
-R7 : 0xC6FFCE78 (-956313992)
-R8 : 0xC11FA058 (-1054891944)
-R9 : 0xC4AECCF6 (-995177226)
-R10: 0x00000000 (0)
-R11: 0xC48BD794 (-997468268)
-R12: 0xC4771480 (-998828928)
-SP : 0xC6FFCE58 (-956314024)
-LR : 0xC458C245 (-1000816059)
-PC : 0xC458B656 (-1000819114) ["libGTASA.so"+0x48B656]
-PSR : 0x80070030 (-2147024848)
-
-Stack (printing from 0xC6FFCE58):
-+0x000  51 A1 CB 13  58 A0 1F C1  F6 CC AE C4  00 00 00 00
-+0x010  94 D7 8B C4  00 00 00 00  58 A0 1F C1  00 00 00 00
-+0x020  C8 CE FF C6  45 C2 58 C4  F5 CC AE C4  F6 CC AE C4
-+0x030  FC CC AE C4  5C 2D 7B C4  94 21 91 C4  CC 03 91 C4
-+0x040  08 7D 90 C4  44 F6 8F C4  51 A1 CB 13  00 00 00 00
-+0x050  51 A1 CB 13  50 23 BB C3  00 00 00 00  00 00 00 00
-+0x060  04 CD AE C4  00 00 00 00  0C 50 BB C3  8C B2 8B C4
-+0x070  8C D7 8B C4  25 55 BA C3  00 00 00 00  01 00 00 00
-+0x080  04 CD AE C4  C0 D0 FF C6  FC C3 AF C4  20 01 7B C4
-+0x090  00 00 00 00  99 26 58 C4  01 00 00 00  00 00 00 00
-+0x0A0  C3 28 77 14  53 00 4D 00  4F 00 4B 00  45 00 5F 00
-+0x0B0  34 00 00 00  A7 44 32 C7  3C D0 FF C6  60 02 2E EF
-+0x0C0  A4 B4 89 D7  BB BF 36 ED  20 D0 FF C6  A7 44 32 C7
-+0x0D0  26 28 00 00  20 D0 FF C6  60 02 2E EF  EF D0 63 ED
-+0x0E0  DC A4 DB F0  00 B4 89 D7  00 00 00 00  00 00 00 00
-+0x0F0  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
-+0x100  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
-+0x110  20 0F F4 17  51 A1 CB 13  01 00 00 00  01 00 00 00
-+0x120  54 70 7D C4  09 00 00 00  01 00 00 00  00 00 00 00
-+0x130  98 CF FF C6  E7 6B 6E C4  A0 CF FF C6  51 A1 CB 13
-
-base: 0xC6F02000   top: 0xC6FFCE58   bottom: 0xC7000000
