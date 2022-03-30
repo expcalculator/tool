@@ -60,16 +60,16 @@ var $asm_UIAutomationProvider = JSIL.GetAssembly("UIAutomationProvider, Version=
 var $asm_UIAutomationTypes = JSIL.GetAssembly("UIAutomationTypes, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35");
 var $asm_WindowsBase = JSIL.GetAssembly("WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35");
 var $asm_WindowsFormsIntegration = JSIL.GetAssembly("WindowsFormsIntegration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35");
-var $asm_Studie = JSIL.GetAssembly("Studie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null");
+var $asm_Application1 = JSIL.GetAssembly("Application1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null");
 
 if (typeof (contentManifest) !== "object") { JSIL.GlobalNamespace.contentManifest = {}; };
 contentManifest["index"] = [
-    ["Script", "app-cshtml5/app/Studie.js?20223310728", { "sizeBytes": 9404 }],
-    ["Script", "app-cshtml5/app/mscorlib.js?20223310728", { "sizeBytes": 0 }],
-    ["Script", "app-cshtml5/app/CSharpXamlForHtml5.js?20223310728", { "sizeBytes": 0 }],
-    ["Script", "app-cshtml5/app/CSharpXamlForHtml5.System.dll.js?20223310728", { "sizeBytes": 0 }],
-    ["Script", "app-cshtml5/app/CSharpXamlForHtml5.System.Xaml.dll.js?20223310728", { "sizeBytes": 0 }],
-    ["Script", "app-cshtml5/app/CSharpXamlForHtml5.System.Xml.dll.js?20223310728", { "sizeBytes": 0 }],
-    ["Script", "app-cshtml5/app/CSharpXamlForHtml5.System.ServiceModel.dll.js?20223310728", { "sizeBytes": 0 }],
-    ["Script", "app-cshtml5/app/CSharpXamlForHtml5.System.Runtime.Serialization.dll.js?20223310728", { "sizeBytes": 0 }],
+    ["Script", "app-cshtml5/app/Application1.js?20223302334", { "sizeBytes": 76192 }],
+    ["Script", "app-cshtml5/app/mscorlib.js?20223302334", { "sizeBytes": 0 }],
+    ["Script", "app-cshtml5/app/CSharpXamlForHtml5.js?20223302334", { "sizeBytes": 0 }],
+    ["Script", "app-cshtml5/app/CSharpXamlForHtml5.System.dll.js?20223302334", { "sizeBytes": 0 }],
+    ["Script", "app-cshtml5/app/CSharpXamlForHtml5.System.Xaml.dll.js?20223302334", { "sizeBytes": 0 }],
+    ["Script", "app-cshtml5/app/CSharpXamlForHtml5.System.Xml.dll.js?20223302334", { "sizeBytes": 0 }],
+    ["Script", "app-cshtml5/app/CSharpXamlForHtml5.System.ServiceModel.dll.js?20223302334", { "sizeBytes": 0 }],
+    ["Script", "app-cshtml5/app/CSharpXamlForHtml5.System.Runtime.Serialization.dll.js?20223302334", { "sizeBytes": 0 }],
 ];
